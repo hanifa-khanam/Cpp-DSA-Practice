@@ -127,9 +127,9 @@ int main() {
         cout << "1. Add Student\n";
         cout << "2. View All Students\n";
         cout << "3. Search Student\n";
-        cout << "4. Update Student\n";
-        cout << "5. Delete Student\n";
-        cout << "6. Analytics (Average, Top scorer)\n";
+        cout << "4. Save to File\n";
+        cout << "5. Load from File\n";
+       
 
         int choice;
         cout << "\nEnter your Choice: "; 
