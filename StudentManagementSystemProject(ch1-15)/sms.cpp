@@ -91,7 +91,7 @@ void savetoFile(Student *students, int count) {
 }
 
 /* ================= FILE LOAD ================= */
-void loadfromFile(Student* students, int count) {
+void loadfromFile(Student*& students, int &count) {
     ifstream fin("sms.txt");
 
     if(!fin) {
@@ -104,6 +104,8 @@ void loadfromFile(Student* students, int count) {
     cin >> count;
     cin.ignore();
 
+    // delete old memory first
+    delete[] students;
     students = new Student[count];
 
     for (int i = 0; i < count; i++) {
@@ -153,7 +155,6 @@ int main() {
             savetoFile(students, totalStudents);
             break;
         case 5:
-            delete[] students;
             loadfromFile(students, totalStudents);
             break;
         default:
