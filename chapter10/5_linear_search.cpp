@@ -15,7 +15,7 @@ int main() {
     int n = sizeof(arr) / sizeof(int);
     
     cout << linearSearch(arr, n, 20) << endl;
-    int a, b;
+    
 
     return 0;
 }
