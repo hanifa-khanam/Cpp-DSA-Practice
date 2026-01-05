@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// Brute force approach
 void maxSubarraySum1(int *arr, int n) {
     int maxSum = INT_MIN;
 
