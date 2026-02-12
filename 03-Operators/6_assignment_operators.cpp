@@ -8,22 +8,22 @@ int main() {
     cout << "Initial values: a = " << a << ", b = " << b << endl;
 
     a += b;  // Add and assign
-    cout << "After a += b: a = " << a << endl;
+    cout << "After a += b: a = " << a << endl;  // 15
 
     a -= b;  // Subtract and assign
-    cout << "After a -= b: a = " << a << endl;
+    cout << "After a -= b: a = " << a << endl;  // 10
 
     a *= b;  // Multiply and assign
-    cout << "After a *= b: a = " << a << endl;
+    cout << "After a *= b: a = " << a << endl;  // 50
 
     a /= b;  // Divide and assign
-    cout << "After a /= b: a = " << a << endl;
+    cout << "After a /= b: a = " << a << endl;  // 10
 
     a %= b;  // Modulus and assign
-    cout << "After a %= b: a = " << a << endl;
+    cout << "After a %= b: a = " << a << endl;  // 0
 
-    a <<= 1; // Left shift and assign
-    cout << "After a <<= 1: a = " << a << endl;
+    a <<= 1; // Left shift and assign              
+    cout << "After a <<= 1: a = " << a << endl;  
 
     a >>= 1; // Right shift and assign
     cout << "After a >>= 1: a = " << a << endl;

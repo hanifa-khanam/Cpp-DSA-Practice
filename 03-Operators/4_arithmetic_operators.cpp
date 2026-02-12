@@ -13,18 +13,5 @@ int main() {
     cout << "/ " << (a / b) << endl;
     cout << "% " << (a % b) << endl;
 
-    // Arithmetic Unary operators
-    int c = 2;
-    c++;
-    cout << "c= " << c << endl;
-    c--;
-    cout << "c= " << c << endl;
-
-    int d = 3;
-    int e = d++;
-    int f = ++d;
-    cout << "d = " << d << endl;
-    cout << "e = " << e << endl;
-    cout << "f = " << f << endl;
-    
+    return 0;    
 }
