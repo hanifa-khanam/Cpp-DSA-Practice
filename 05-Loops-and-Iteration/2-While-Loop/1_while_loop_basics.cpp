@@ -1,13 +1,15 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+
+int main() {
     int i = 1;
-    do
+
+    while (i <= 25)
     {
         cout << i << " ";
         i++;
-    } while (i <= 5);
+    }
     
+    cout << endl;
     return 0;
 }

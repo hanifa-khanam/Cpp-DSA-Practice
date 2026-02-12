@@ -1,4 +1,4 @@
-// Write a program where user cn keep entring anumbers till they enter a multiple of 10
+// Write a program where user cn keep entring a numbers till they enter a multiple of 10
 #include <iostream>
 using namespace std;
 int main() 

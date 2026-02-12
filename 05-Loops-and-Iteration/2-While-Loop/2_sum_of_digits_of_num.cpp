@@ -1,18 +1,27 @@
-// Printing reversed of a number by assigning it to a result or temp variable 
+// sum of digits of a number
 #include <iostream>
 using namespace std;
+
 int main() {
     int n = 10829;
-    int result = 0;
+    int sum = 0;
+
     while (n > 0)
     {
-        /* code */
        int last_digit = n % 10;
-       result = result * 10 + last_digit;
+       sum += last_digit;
        n = n / 10;
-
     }
+    
     cout << endl;
-    cout << result ;
+    cout << sum << endl;  
     return 0;
 } 
+
+
+
+
+
+
+
+

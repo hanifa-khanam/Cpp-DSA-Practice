@@ -13,6 +13,7 @@ int main()
     }
     cout << "Factorial of " << n << " = " << factorial << endl;
 
+
     //: WAP to print the multiplication table of a number, entered by the user.
     int num;
     cout << "Enter number for the multiplication tabel: ";
@@ -20,6 +21,7 @@ int main()
     for(int i=1; i<=10; i++) {
         cout << num << " x " << i << " = " << num*i << endl;
     }
+
 
     // WAP to input a number and check whether the number is an Armstrong number or not.
     int number;
@@ -38,6 +40,7 @@ int main()
         cout << number << " is not an armstrong number.\n";
     }
 
+
     // For a positive N , WAP that prints all the prime numbers from 2 to N. (Assume N >= 2)
     int N;
     cout << "Enter N to print prime numbers: ";
@@ -55,6 +58,8 @@ int main()
         }
     }
     cout << endl;
+
+    
     // : For a positive N , WAP that prints the first N Fibonacci numbers. (Assume N >= 2)
     int nn;
     cout << "Enter Number: " ;
