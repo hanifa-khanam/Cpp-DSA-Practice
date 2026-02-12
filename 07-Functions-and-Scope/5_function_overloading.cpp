@@ -3,17 +3,17 @@
 using namespace std;
 
 int add(int a, int b) {
-    cout << "sum of integer a & b: " << a + b << endl;
+    cout << "sum of integer a + b: " << a + b << endl;
     return a+b;
 }
 
 double add(double a, double b) {
-    cout << "sum of double a & b: " << a + b << endl;
+    cout << "sum of double a + b: " << a + b << endl;
     return a + b;
 }
 
 int add(int a, int b, int c) {
-    cout << "sum of integer a, b, & c: " << a + b + c << endl;
+    cout << "sum of integer a + b + c: " << a + b + c << endl;
     return a + b + c;
 }
 

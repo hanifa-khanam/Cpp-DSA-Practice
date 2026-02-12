@@ -1,6 +1,7 @@
 #include <iostream> 
 using namespace std;
 
+// Write a function to calculate the sum of digits of a number. 
 int digitSumofNum(int n) {
     int sum_of_digit = 0;
     while(n > 0) {
