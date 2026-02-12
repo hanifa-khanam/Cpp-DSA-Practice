@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+/*  Print the Palindromic Pattern with Numbers.
+     1
+    212
+   32123
+  4321234
+ 543212345
+
+*/
+
 int main() {
     int n = 5;
     // outer loop

@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/* Character Triangle
+    A
+    BB
+    CCC
+    DDDD
+    EEEEE
+*/
+
 int main() {
     int n;
     cout << "Enter number: ";

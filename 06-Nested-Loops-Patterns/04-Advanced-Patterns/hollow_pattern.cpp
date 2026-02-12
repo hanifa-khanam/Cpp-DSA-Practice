@@ -1,14 +1,23 @@
 #include <iostream>
 using namespace std;
+
+/* Hollow reactangle pattern
+    *****
+    *   *
+    *   *
+    *****
+
+*/
+
 int main() {
     int n;
-    cout << "Enter n: ";
+    cout << "N: ";
     cin >> n;
 
     for(int i=1; i<=n; i++) {
-        cout << "*"; // First
+        cout << "*"; // first
         for(int j=1; j<=n-1; j++) {
-            if (i == 1 || i == n) {
+            if(i == 1 || i == n) {
                 cout << "*";
             } else {
                 cout << " ";
@@ -16,4 +25,6 @@ int main() {
         }
         cout << "*" << endl; // last
     }
+
+    return 0;
 }

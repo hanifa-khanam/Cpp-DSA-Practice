@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+/* Floating numbers Triangle
+    1
+    23
+    456
+    78910
+    1112131415
+  
+*/
+
 int main() {
     int n;
     cout << "Enter number: ";

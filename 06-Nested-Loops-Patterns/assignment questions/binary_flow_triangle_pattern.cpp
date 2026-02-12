@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+/*  Print the 0-1Triangle Pattern.  
+    For n =5
+    1
+    01
+    101
+    0101
+    10101
+*/
+
 int main() {
     bool val = true;
     int n = 5;
