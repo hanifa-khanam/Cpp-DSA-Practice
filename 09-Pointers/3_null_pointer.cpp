@@ -2,15 +2,16 @@
 using namespace std;
 
 int main() {
-    int *ptr = NULL;
+    int *ptr1 = NULL;
     int *ptr2 = nullptr;
 
-    cout << ptr << "\n";
+    cout << ptr1 << "\n";
     cout << ptr2 << "\n";
+    // cout << *ptr1 << "\n";  // cannot dreference null pointer: segmentation fault
 
     int a = 10;
-    ptr = &a;
-    cout << ptr << "\n";
-    cout << *ptr << "\n";
+    ptr1 = &a;
+    cout << ptr1 << "\n";
+    cout << *ptr1 << "\n";
     return 0;
 }
