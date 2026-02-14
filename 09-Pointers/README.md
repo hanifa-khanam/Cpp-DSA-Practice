@@ -18,14 +18,14 @@ Think of memory as a large storage of numbered boxes. Each "box" (variable) in o
 
 ---
 
-## 🔍 Address-of Operator (`&`)
+####  Address-of Operator (`&`)
 The `&` operator is used to retrieve the memory address of a variable.
 
 **Example:**
 ```cpp
 int x = 10;
 cout << &x; // Prints the hexadecimal memory address of x (e.g., 0x7ffe...)
-
+```
 ---
 
 #### Pointer
@@ -36,7 +36,7 @@ A **pointer** is a variable that **stores the address of another variable**.
 ```cpp
 int x = 10;
 int* ptr = &x;
-
+```
 Here: `ptr` stores the address of x, `*` indicates a pointer type
 
 ---
@@ -48,7 +48,7 @@ The `*` operator is used to access the value stored at the address.
 **Example:**
 ```cpp
 cout << *ptr;
-
+```
 ---
 
 #### Null Pointer
@@ -62,7 +62,7 @@ int* ptr = NULL;
 Modern C++ uses: 
 ```cpp
 int* ptr = nullptr;
-
+```
 ---
 
 #### Reference Variables
@@ -73,5 +73,5 @@ A reference variable is another name for an existing variable.
 ```cpp
 int x = 10;
 int &ref = x;
-
+```
 Both x and ref refer to the same memory location.
