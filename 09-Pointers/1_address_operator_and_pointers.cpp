@@ -8,18 +8,20 @@ int main() {
     cout << &a << " = " << ptr << "\n";
 
     float pi = 3.14;
-    float *p1 = &pi;
-    char letter = 'G';
-    char *p2 = &letter;
-    double pie = 3.14567889;
-    double *p3 = &pie;
+    float *ptr1 = &pi;
 
-    cout << "float = " << sizeof(p1) << endl;
-    cout << "char = " << sizeof(p2) << endl;
-    cout << "double = " << sizeof(p3) << endl;
+    char letter = 'G';
+    char *ptr2 = &letter;
+
+    double pie = 3.14567889;
+    double *ptr3 = &pie;
+
+    cout << "float = " << sizeof(ptr1) << endl;
+    cout << "char = " << sizeof(ptr2) << endl;
+    cout << "double = " << sizeof(ptr3) << endl;
     cout << "integer = " << sizeof(ptr) << endl;
 
-    cout << *p3 << endl;
+    cout << *ptr3 << endl;
 
 
 
