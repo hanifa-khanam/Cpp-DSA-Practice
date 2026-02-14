@@ -58,6 +58,7 @@ A null pointer points to nothing.
 **Example:**
 ```cpp
 int* ptr = NULL;
+```
 
 Modern C++ uses: 
 ```cpp
