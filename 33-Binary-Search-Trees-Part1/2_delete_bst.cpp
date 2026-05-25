@@ -80,8 +80,17 @@ Node* deleteNode(Node* root, int val) {
         }
 
         // CASE 2: one child
-        if(root->left == NULL || root->right == NULL) {
-            return root->left == NULL ? root->right : root->left;
+        // left child
+        if(root->left == NULL) {
+            Node* temp = root->right;
+            delete root;
+            return temp;
+        }
+        // right child
+        if(root->right == NULL) {
+            Node* temp = root->left;
+            delete root;
+            return temp;
         }
 
         // CASE 3: two children
